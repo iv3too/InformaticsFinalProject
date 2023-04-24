@@ -48,9 +48,9 @@ namespace InformaticsFinalProj
                 {
                     MessageBox.Show("You logged in successfully!");
 
-                    //Catalog b = new Catalog();
-                    //b.Show();
-                    //this.Close();
+                    Catalog b = new Catalog();
+                    b.Show();
+                    this.Close();
                 }
                 else
                 {
